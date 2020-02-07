@@ -1,5 +1,5 @@
 <?php
-namespace Eminiarts\Tabs;
+namespace ScaleXY\NovaTabs\Tabs;
 
 use Laravel\Nova\Fields\FieldCollection;
 use Laravel\Nova\Panel;

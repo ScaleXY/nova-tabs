@@ -1,5 +1,5 @@
 {
-    "name": "eminiarts/nova-tabs",
+    "name": "ScaleXY/nova-tabs",
     "description": "Laravel Nova - Tabs.",
     "keywords": [
         "laravel",
@@ -7,9 +7,9 @@
     ],
     "authors": [
         {
-            "name": "Emini Arts GmbH",
-            "email": "support@eminiarts.ch",
-            "homepage": "https://eminiarts.ch"
+            "name": "ScaleXY Pvt Ltd",
+            "email": "ping@scalexy.com",
+            "homepage": "https://composer.scalexy.com/"
         }
     ],
     "license": "MIT",
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Eminiarts\\Tabs\\": "src/"
+            "ScaleXY\\NovaTabs\\Tabs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eminiarts\\Tabs\\TabsServiceProvider"
+                "ScaleXY\\NovaTabs\\Tabs\\TabsServiceProvider"
             ]
         }
     },

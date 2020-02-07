@@ -31,7 +31,7 @@ You can group Fields of a Resource into Tabs.
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\Tabs;
 
 public function fields()
 {
@@ -61,7 +61,7 @@ If you are only using Tabs without another default Panel, you can set `withToolb
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\Tabs;
 
 public function fields(Request $request)
     {
@@ -96,7 +96,7 @@ You can also group Relations into Tabs. Make sure to use the `AvailableTabFields
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\Tabs;
 
 class User extends Resource
 {
@@ -123,7 +123,7 @@ class User extends Resource
 ![image](https://user-images.githubusercontent.com/3426944/51089905-aa297680-1774-11e9-9611-4446ca13ab4a.png)
 
 ```php
-use Eminiarts\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\Tabs;
 
 public function fields(Request $request)
 {
@@ -148,8 +148,8 @@ If your Model uses the `Laravel\Nova\Actions\Actionable` Trait you can put the A
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
-use Eminiarts\Tabs\ActionsInTabs; // Add this Trait
+use ScaleXY\NovaTabs\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\ActionsInTabs; // Add this Trait
 use Laravel\Nova\Actions\ActionResource; // Import the Resource
 
 class Client extends Resource
@@ -188,8 +188,8 @@ If you want to show Tabs on the Edit View, use the `TabsOnEdit` Trait in your Re
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
-use Eminiarts\Tabs\TabsOnEdit; // Add this Trait
+use ScaleXY\NovaTabs\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\TabsOnEdit; // Add this Trait
 
 class Client extends Resource
 {
@@ -205,7 +205,7 @@ By default, the Tabs component moves the search input and the create button to t
 ```php
 // in app/Nova/Resource.php
 
-use Eminiarts\Tabs\Tabs;
+use ScaleXY\NovaTabs\Tabs\Tabs;
 
 class User extends Resource
 {
